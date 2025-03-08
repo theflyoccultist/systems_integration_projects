@@ -1,7 +1,7 @@
 # Simple HTTP Server
 
 This is my first C project, a simple HTTP server.
-It is cross-platform and can run on Windows, macOS, and Linux.
+It was developped in a Linux environment.
 
 ## Project Structure
 
@@ -13,7 +13,7 @@ It is cross-platform and can run on Windows, macOS, and Linux.
 To build the project, run the following command:
 
 ```sh
-gcc -Wall -o http_server src/main.c src/server.c -lws2_32
+make
 ```
 
 ## How to Run

@@ -1,12 +1,11 @@
-CC = gcc
-CFLAGS = -Wall
-LDFLAGS = -lws2_32
+CC=gcc
+CFLAGS=-Wall -Wextra
+SRCS=src/main.c src/server.c
+OBJ=$(SRCS:.c=.o)
+BIN=http_server
 
-TARGET = http_server
-SRCS = src/main.c src/server.c
-
-$(TARGET): $(SRCS)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SRCS) $(LDFLAGS)
+$(BIN): $(OBJ)
+	$(CC) $(CFLAGS) -o $(BIN) $(OBJ)
 
 clean:
-	rm -f $(TARGET)
+	rm -f $(OBJ) $(BIN)
