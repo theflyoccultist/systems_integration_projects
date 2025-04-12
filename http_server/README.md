@@ -1,7 +1,7 @@
 # Simple HTTP Server
 
 This is my first C project, a simple HTTP server.
-It was developped in a Linux environment.
+It was developed in a Linux environment.
 
 ## Project Structure
 
@@ -33,7 +33,7 @@ curl -v http://localhost:8080
 ## Features
 
 - Basic HTTP request handling
-- It just returns "Hello from C" if the request is a GET request
+- It just returns "Pwat Pwat" if the request is a GET request
 
 ## Future Improvements
 

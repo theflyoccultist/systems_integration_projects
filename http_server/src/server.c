@@ -39,7 +39,7 @@ void start_server() {
     }
 
     // listen for connections
-    if (listen(server_fd, 10) == SO_ERROR) {
+    if (listen(server_fd, 10) == -1) {
         perror("Listen failed");
         close(server_fd);
         exit(EXIT_FAILURE);
