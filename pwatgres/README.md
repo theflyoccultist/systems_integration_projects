@@ -9,7 +9,7 @@ This script:
 - Logs every query execution for easier debugging.
 - Outputs credentials and connection info in a colorful terminal experience.
 
-![CLI screenshot](https://imgur.com/a/ZXw9F7z)
+![CLI screenshot](images/preview.png)
 
 ---
 
