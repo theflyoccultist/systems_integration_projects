@@ -86,6 +86,8 @@ GRANT your_new_user TO your_admin_user;
 ## 💀 Known Limitations
 
 - Does not support remote database setups (assumes local Unix socket `/var/run/postgresql`)
+> [!TIP]
+> Try running the SQL query `SHOW unix_socket_directories;` to confirm your database setup.
 - Does not revoke specific table-level privileges (handled by default privileges logic)
 - Only supports PostgreSQL (obviously)
 
